@@ -223,8 +223,7 @@ body {
 }
 
 .link {
-  margin-left: 1vh;
-  margin-right: 1vh;
+  padding: 2%;
   text-decoration: none;
     color: #eaf0ff;
   font-size: 0.9em;
