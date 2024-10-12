@@ -34,7 +34,7 @@ body {
   border: 1px solid rgb(0, 0, 0);
   box-shadow: 100vh 100vh 100vh rgba(0, 0, 0, 0.1);
   background-color: rgba(0, 0, 0, 0.158);
-  backdrop-filter: blur(3vh);
+  backdrop-filter: blur(2vh);
 
 }
 
