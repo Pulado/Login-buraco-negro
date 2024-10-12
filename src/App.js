@@ -55,7 +55,7 @@ const CombinedComponent = () => {
               onChange={(e) => setUsername(e.target.value)}
               className="input"
               required
-              placeholder="Usuário"
+              placeholder="Email ou Nome de Usuário"
             />
           </div>
         </div>
