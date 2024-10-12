@@ -197,7 +197,7 @@ body {
   display: flex;
   align-items: flex-end;
   justify-content: flex-start;
-  padding: 2vh;
+  padding: 1.5vh;
 }
 
 .yellow {
@@ -207,7 +207,7 @@ body {
   display: flex;
   align-items: flex-end;
   justify-content: flex-end;
-  padding: 2vh;
+  padding: 1.5vh;
   margin-right: 10vh;
 }
 
