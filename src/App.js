@@ -3,7 +3,7 @@ import './App.css';
 
 const generateStars = () => {
   const stars = [];
-  for (let i = 0; i < 900; i++) {
+  for (let i = 0; i < 500; i++) {
     const style = {
       position: 'absolute',
       top: `${Math.random() * 99.5}%`,
