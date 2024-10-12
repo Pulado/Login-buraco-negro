@@ -39,12 +39,9 @@ const CombinedComponent = () => {
       {stars}
       <div className="pulsing-ball"></div>
       <form onSubmit={handleSubmit} className="rectangle">
-        {/* Red = Title */}
         <div className="square red">
           <h2 className="title">Login</h2>
         </div>
-
-        {/* Pink = Username */}
         <div className="square pink">
           <div className="inputGroup">
             <label className="label" htmlFor="username"></label>
@@ -59,8 +56,6 @@ const CombinedComponent = () => {
             />
           </div>
         </div>
-
-        {/* Orange = Password */}
         <div className="square orange">
           <div className="inputGroup">
             <label className="label" htmlFor="password"></label>
@@ -75,14 +70,10 @@ const CombinedComponent = () => {
             />
           </div>
         </div>
-
-        {/* Brown = Remember me */}
         <div className="brown-rectangle">
           <input type="checkbox" id="remember-me" />
-          <label htmlFor="remember-me">Remember me</label>
+          <label htmlFor="remember-me">Lembre de mim</label>
         </div>
-
-        {/* Purple = Button */}
         <div className="square purple">
           <div className="botao">
             <button type="submit" className="button">
@@ -90,15 +81,11 @@ const CombinedComponent = () => {
             </button>
           </div>
         </div>
-
-        {/* Blue = Forgot Password */}
         <div className="square blue">
           <a href="/forgot-password" className="link">
             Esqueceu a senha?
           </a>
         </div>
-
-        {/* Yellow = Register */}
         <div className="square yellow">
           <a href="/register" className="link">
             Registrar-se
