@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import './App.css'; 
+import './App.css';
 
 const generateStars = () => {
   const stars = [];
@@ -21,17 +21,19 @@ const generateStars = () => {
 
 const CombinedComponent = () => {
   const [stars, setStars] = useState([]);
+  const [username, setUsername] = useState('');
+  const [password, setPassword] = useState('');
 
   useEffect(() => {
     setStars(generateStars());
   }, []);
 
-  const [username, setUsername] = useState('');
-  const [password, setPassword] = useState('');
-
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log('Login: ', username, password);
+    
+    // Redireciona para a URL desejada
+    window.location.href = 'https://buraconegro.vercel.app/';
   };
 
   return (
