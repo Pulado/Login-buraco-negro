@@ -31,8 +31,7 @@ const CombinedComponent = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log('Login: ', username, password);
-    
-    // Redireciona para a URL desejada
+
     window.location.href = 'https://buraconegro.vercel.app/';
   };
 
