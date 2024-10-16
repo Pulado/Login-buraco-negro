@@ -31,6 +31,7 @@ const CombinedComponent = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log('Login: ', username, password);
+    
 
     window.location.href = 'https://buraconegro.vercel.app/';
   };
@@ -88,7 +89,7 @@ const CombinedComponent = () => {
           </a>
         </div>
         <div className="square yellow">
-          <a href="/register" className="link">
+          <a href="https://registroburaconegro.vercel.app/" className="link">
             Registrar-se
           </a>
         </div>
